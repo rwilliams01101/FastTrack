@@ -6,7 +6,7 @@ class Employee {
         this.email = email;
     }
 
-    storeName() {
+    logName() {
         if(!this.name) {
             console.log("Please enter a name");
         }
@@ -15,9 +15,30 @@ class Employee {
         }
     }
 
-    storeId() {
+    logId() {
         if(!this.id) {
             console.log("Please enter an ID")
         }
+        else{
+            return this.id;
+        }
     }
-}
+
+   logEmail() {
+       if(!this.email) {
+           console.log("Please enter an email")
+       }
+       else {
+           return this.email;
+       }
+   }
+
+//    logRole() {
+//        if(!)
+//    }
+};
+
+// var test = new Employee("Alan", "404", "email@gmail.com")
+// console.log(test);
+
+module.exports = Employee;
