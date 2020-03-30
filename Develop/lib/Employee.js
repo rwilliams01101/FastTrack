@@ -6,7 +6,7 @@ class Employee {
         this.email = email;
     }
 
-    logName() {
+    getName() {
         if(!this.name) {
             console.log("Please enter a name");
         }
@@ -15,7 +15,7 @@ class Employee {
         }
     }
 
-    logId() {
+    getId() {
         if(!this.id) {
             console.log("Please enter an ID")
         }
@@ -24,7 +24,7 @@ class Employee {
         }
     }
 
-   logEmail() {
+   getEmail() {
        if(!this.email) {
            console.log("Please enter an email")
        }
@@ -33,8 +33,8 @@ class Employee {
        }
    }
 
-//    logRole() {
-//        if(!)
+//    getRole() {
+//       Will need to get something figured out for this
 //    }
 };
 
