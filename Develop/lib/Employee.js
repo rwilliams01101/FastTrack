@@ -33,9 +33,9 @@ class Employee {
        }
    }
 
-//    getRole() {
-//       Will need to get something figured out for this
-//    }
+   getRole() {
+    return "Employee";
+   }
 };
 
 // var test = new Employee("Alan", "404", "email@gmail.com")

@@ -6,11 +6,17 @@ class Intern extends Employee {
     this.school = school;
   }
 
-  getschool() {
+  getSchool() {
     if (!this.school) {
       console.log("Please enter your school name.");
     } else {
       return this.school;
     }
   }
+
+  getRole() {
+    return "Intern";
+ }
 }
+
+module.exports=Intern;
