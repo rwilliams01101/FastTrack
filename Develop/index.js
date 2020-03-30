@@ -101,31 +101,40 @@ function start() {
             parseInt(answers.id),
             answers.email,
             answers.school
-            );
+          );
           html.push(intern);
           break;
       }
       addAnother();
     });
+}
+
+start();
+
+function addAnother() {
+  inquirer
+    .prompt([
+      {
+        type: "confirm",
+        message: "Would you like to add another employee?",
+        name: "another"
+      }
+    ])
+    .then(function({ another }) {
+      if (another) {
+        start();
+      } else {
+        createHTML(html);
+      }
+    });
+}
+
+function createHTML (html) {
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR);
   }
-
-  start();
-
-    function addAnother() {
-      inquirer
-        .prompt([
-          {
-            type: "confirm",
-            message: "Would you like to add another employee?",
-            name: "another",
-          }
-        ])
-        .then(function({another}) {
-          if (another) {
-            start();
-          } else {
-            render(html);
-            console.log(html);
-          }
-        });
-    }
+  fs.writeFile(outputPath, render(html), function(err) {
+    if (err) throw err;
+    console.log("File created successfully");
+  });
+}
