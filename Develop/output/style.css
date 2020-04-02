@@ -1,0 +1,37 @@
+body {
+    background-image: url("https://media.istockphoto.com/vectors/black-geometric-texture-pattern-abstract-banner-vector-id1028920544?k=6&m=1028920544&s=170667a&w=0&h=3zc4hgG24JiR6LWKZreTbQmCRj2pgPuqktMC5iUtUeY=")
+}
+
+#tagline {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+#productName {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.jumbotron {
+    background-image: url("https://media.istockphoto.com/vectors/black-geometric-texture-pattern-abstract-banner-vector-id1028920544?k=6&m=1028920544&s=170667a&w=0&h=3zc4hgG24JiR6LWKZreTbQmCRj2pgPuqktMC5iUtUeY=")
+}
+
+.card-header {
+    color: whitesmoke;
+    background-image: url("https://i.pinimg.com/originals/1d/f8/47/1df847a7f48ddd7d58b5f46f52c487da.jpg");
+    border-radius: 25px;
+}
+
+.employee-card {
+    background-image: url("https://i.pinimg.com/originals/1d/f8/47/1df847a7f48ddd7d58b5f46f52c487da.jpg");
+    margin: 40px;
+    border-radius: 25px;
+}
+
+.list-group-item {
+    background-color: rgba(245, 245, 245, 0.849);
+}
