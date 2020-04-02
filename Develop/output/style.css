@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://media.istockphoto.com/vectors/black-geometric-texture-pattern-abstract-banner-vector-id1028920544?k=6&m=1028920544&s=170667a&w=0&h=3zc4hgG24JiR6LWKZreTbQmCRj2pgPuqktMC5iUtUeY=")
+    background-image: url("https://wallpaper-house.com/data/out/12/wallpaper2you_512512.jpg")
 }
 
 #tagline {
@@ -17,21 +17,21 @@ body {
 }
 
 .jumbotron {
-    background-image: url("https://media.istockphoto.com/vectors/black-geometric-texture-pattern-abstract-banner-vector-id1028920544?k=6&m=1028920544&s=170667a&w=0&h=3zc4hgG24JiR6LWKZreTbQmCRj2pgPuqktMC5iUtUeY=")
+    background: transparent;
 }
 
 .card-header {
     color: whitesmoke;
-    background-image: url("https://i.pinimg.com/originals/1d/f8/47/1df847a7f48ddd7d58b5f46f52c487da.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVD8jWvvI95Jf5G_0K0k23G5LlHG4En6X96MfNGxoAXMXqGOlm&usqp=CAU");
     border-radius: 25px;
 }
 
 .employee-card {
-    background-image: url("https://i.pinimg.com/originals/1d/f8/47/1df847a7f48ddd7d58b5f46f52c487da.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTVD8jWvvI95Jf5G_0K0k23G5LlHG4En6X96MfNGxoAXMXqGOlm&usqp=CAU");
     margin: 40px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
 }
 
 .list-group-item {
-    background-color: rgba(245, 245, 245, 0.849);
+    background-color: rgba(245, 245, 245, 0.719);
 }
